@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
-    "build": "nuxt build",
+    "dev": "nuxi dev",
+    "build": "nuxi build",
     "lint": "npm run lint:js && npm run lint:yml",
     "lint:js": "eslint ./ --ext .js",
     "lint:yml": "eslint ./ --ext .yml,.yaml",
