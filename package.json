@@ -24,6 +24,5 @@
     "nuxt3": "latest",
     "semantic-release": "~18.0.0",
     "semantic-release-slack-bot": "~2.1.1"
-  },
-  "dependencies": {}
+  }
 }
