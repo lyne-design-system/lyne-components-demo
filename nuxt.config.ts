@@ -1,4 +1,5 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt3';
 
 export default defineNuxtConfig({
-})
+  vite: false
+});
