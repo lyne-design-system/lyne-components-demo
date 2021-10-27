@@ -13,7 +13,6 @@
   "devDependencies": {
     "@commitlint/cli": "~13.2.1",
     "@commitlint/config-conventional": "~13.2.0",
-    "@nuxt/cli": "~2.15.8",
     "@semantic-release/changelog": "~6.0.0",
     "@semantic-release/exec": "~6.0.1",
     "@semantic-release/git": "~10.0.0",
@@ -21,9 +20,7 @@
     "eslint-plugin-jsx-a11y": "~6.4.1",
     "eslint-plugin-yaml": "~0.5.0",
     "husky": "~7.0.4",
-    "install": "~0.13.0",
     "lyne-helper-eslint-config": "~1.0.5",
-    "npm": "~8.1.1",
     "nuxt3": "latest",
     "semantic-release": "~18.0.0",
     "semantic-release-slack-bot": "~2.1.1"
