@@ -1,0 +1,11 @@
+dist/
+loader/
+hydrate/
+src/components.d.ts
+storybook-static/
+www/
+convenience/generate-component/boilerplate/
+
+# not ignored folders/files
+!.travis.yml
+!.github/
