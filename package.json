@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "lint": "npm run lint:js && npm run lint:yml",
+    "lint:js": "eslint ./ --ext .js",
+    "lint:yml": "eslint ./ --ext .yml,.yaml",
+    "semantic-release": "semantic-release",
+    "start": "node .output/server/index.mjs",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "nuxt3": "latest"
+  }
+}
