@@ -5,21 +5,7 @@ baseConfig.parserOptions = {
   sourceType: 'module'
 };
 
-baseConfig.globals = {
-  console: 'readonly',
-  module: 'readonly',
-  process: 'readonly',
-  require: 'readonly'
-};
-
 baseConfig.overrides = [
-  {
-    files: [
-      '*.yaml',
-      '*.yml'
-    ],
-    plugins: ['yaml']
-  },
   {
     extends: ['plugin:jsx-a11y/recommended'],
     files: ['*.jsx'],
