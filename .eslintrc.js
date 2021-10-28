@@ -5,6 +5,11 @@ baseConfig.parserOptions = {
   sourceType: 'module'
 };
 
+baseConfig.globals = {
+  module: 'readonly',
+  require: 'readonly'
+};
+
 baseConfig.overrides = [
   {
     extends: ['plugin:jsx-a11y/recommended'],
