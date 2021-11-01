@@ -17,3 +17,6 @@ notifications:
 script:
   - npm run lint || travis_terminate 1
   - npm run generate || travis_terminate 1
+
+after_success:
+  - netlify deploy --prod --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir ./dist/ || travis_terminate 1
