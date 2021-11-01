@@ -1,14 +1,12 @@
 const baseConfig = require('lyne-helper-eslint-config');
 
-baseConfig.parserOptions = {
-  ecmaVersion: 6,
-  sourceType: 'module'
-};
-
 baseConfig.globals = {
   module: 'readonly',
+  process: 'readonly',
   require: 'readonly'
 };
+
+baseConfig.plugins = ['yaml'];
 
 baseConfig.overrides = [
   {
