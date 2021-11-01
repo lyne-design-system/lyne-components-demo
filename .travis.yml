@@ -16,8 +16,8 @@ notifications:
 
 jobs:
   include:
-  - stage: master build and deploy
-    if: ((branch = master AND type != pull_request) AND fork = false)
+  - stage: main build and deploy
+    if: ((branch = main AND type != pull_request) AND fork = false)
     script:
     - npm run lint || travis_terminate 1
     - npm run generate --fail-on-error || travis_terminate 1
@@ -26,8 +26,8 @@ jobs:
     - netlify deploy --prod --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir ./dist/ || travis_terminate 1
     - npm run semantic-release || travis_terminate 1
 
-  - stage: non-master build
-    if: ((branch != master OR type = pull_request) AND fork = false)
+  - stage: non-main build
+    if: ((branch != main OR type = pull_request) AND fork = false)
     script:
     - npm run lint || travis_terminate 1
     - npm run generate --fail-on-error || travis_terminate 1
