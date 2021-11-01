@@ -29,7 +29,7 @@ export default {
         name: 'format-detection'
       }
     ],
-    title: 'nuxt-test'
+    title: 'lyne-components-demo'
   },
   modules: ['~/modules/stencil-render'],
   plugins: ['~/plugins/define-custom-elements'],
