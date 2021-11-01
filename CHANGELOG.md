@@ -1,3 +1,12 @@
+## [1.0.2](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.1...v1.0.2) (2021-11-01)
+
+
+### Bug Fixes
+
+* fix indentation ([658d8aa](https://github.com/lyne-design-system/lyne-components-demo/commit/658d8aab344d31b745ab5c25360cfa74e0837445))
+* use correct favicon format ([12823ee](https://github.com/lyne-design-system/lyne-components-demo/commit/12823eed5625f98a9b5419caf6c08f3f645be8eb))
+* use wrapper components on sample page ([6378a5c](https://github.com/lyne-design-system/lyne-components-demo/commit/6378a5c1b16812b98c2f62ce7eaf90846f97c5db))
+
 ## [1.0.1](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.0...v1.0.1) (2021-11-01)
 
 
