@@ -1,8 +1,10 @@
 export default {
   components: true,
+  css: ['lyne-test/dist/lyne-components/lyne-components.css'],
   head: {
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
+      mode: 'shared'
     },
     link: [
       {
