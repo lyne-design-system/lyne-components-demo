@@ -8,7 +8,7 @@ export default {
     },
     link: [
       {
-        href: '/favicon.ico',
+        href: '/favicon.png',
         rel: 'icon',
         type: 'image/x-icon'
       }
