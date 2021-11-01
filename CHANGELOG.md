@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.0...v1.0.1) (2021-11-01)
+
+
+### Bug Fixes
+
+* add correct page title ([c5932b6](https://github.com/lyne-design-system/lyne-components-demo/commit/c5932b635d7769667d5fdfdb00769af6644988d8))
+
 # 1.0.0 (2021-11-01)
 
 
