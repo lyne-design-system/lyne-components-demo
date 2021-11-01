@@ -7,4 +7,5 @@ virt: lxd
 
 
 script:
+  - npm run lint || travis_terminate 1
   - npm run generate || travis_terminate 1
