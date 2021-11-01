@@ -1,0 +1,3 @@
+<template>
+  <lyne-pearl-chain legs="{&quot;legs&quot;:[{&quot;cancellation&quot;:false,&quot;duration&quot;:10},{&quot;cancellation&quot;:false,&quot;duration&quot;:5},{&quot;cancellation&quot;:false,&quot;duration&quot;:5},{&quot;cancellation&quot;:false,&quot;duration&quot;:10},{&quot;cancellation&quot;:false,&quot;duration&quot;:10},{&quot;cancellation&quot;:false,&quot;duration&quot;:5},{&quot;cancellation&quot;:false,&quot;duration&quot;:5},{&quot;cancellation&quot;:false,&quot;duration&quot;:10},{&quot;cancellation&quot;:false,&quot;duration&quot;:15},{&quot;cancellation&quot;:false,&quot;duration&quot;:25}]}" status="66"></lyne-pearl-chain>
+</template>
