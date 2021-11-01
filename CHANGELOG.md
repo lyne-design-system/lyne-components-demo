@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.2...v1.0.3) (2021-11-01)
+
+
+### Bug Fixes
+
+* rename image to imagewrapper to avoid name collision with native tag ([4bc2810](https://github.com/lyne-design-system/lyne-components-demo/commit/4bc2810682ec647642413710a21ab13a1f7d6631))
+* use generate:page hook instead of render:route ([35e8f0d](https://github.com/lyne-design-system/lyne-components-demo/commit/35e8f0d78071b8765ab4d2e6351d52739546a4f2))
+* use image wrapper ([a074ea4](https://github.com/lyne-design-system/lyne-components-demo/commit/a074ea4c772eb6849c76bc3db16ccb6afbe158c0))
+
 ## [1.0.2](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.1...v1.0.2) (2021-11-01)
 
 
