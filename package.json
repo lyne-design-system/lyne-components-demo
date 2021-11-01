@@ -1,20 +1,26 @@
 {
+  "name": "lyne-components-demo",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "nuxt",
     "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
     "lint": "eslint ./ --ext .js",
-    "semantic-release": "semantic-release",
-    "start": "node .output/server/index.mjs",
     "prepare": "husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "~13.2.1",
     "@commitlint/config-conventional": "~13.2.0",
-    "eslint": "~8.1.0",
+    "core-js": "^3.15.1",
+    "eslint": "~7.1.0",
     "eslint-plugin-jsx-a11y": "~6.4.1",
     "husky": "~7.0.4",
     "lyne-helper-eslint-config": "~1.0.5",
-    "nuxt3": "~3.0.0-27255771.f78ec93"
+    "nuxt": "^2.15.7"
+  },
+  "dependencies": {
+    "lyne-test": "~9.59.0"
   }
 }
