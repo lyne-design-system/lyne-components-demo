@@ -1,11 +1,8 @@
 <template>
-  <lyne-button
-    variant="primary"
-    size="large"
-    label="Button"
-    name="sample-name"
-    value="sample-value"
-  ></lyne-button>
+  <div>
+    <h1>Lyne components demo</h1>
+    <NuxtLink to="/kitchensink">Kitchensink</NuxtLink>
+    </div>
 </template>
 
 <script>
