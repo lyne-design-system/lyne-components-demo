@@ -11,7 +11,7 @@
     <Button />
 
     <h2>Image</h2>
-    <Image />
+    <ImageWrapper />
 
     <h2>Panel</h2>
     <Panel />
