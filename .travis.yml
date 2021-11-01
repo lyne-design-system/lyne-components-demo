@@ -15,19 +15,19 @@ notifications:
     secure: apBWINZw80plGJ8nPrrv+OABvKWs0ORpz1lOSrs0JUK8FUwYDZ4on6N4Mhzjr4M5JUm7oiOXfQtGMq0Jq86/+MpRPEKNOW4bKIXapiaCPzv2KtKWzNt+177iJKiKupasWKvlAs9GBDzyUkDVZJOO7tzWQi4KOmOn88vXTGWPh3I5VCBwUMWL/ZiP7pRK5onOXJPsn64yeM028neBN5qB7lVWnJFTXv66SwIjiPojPd1hVHXRohb1u1/lC9caJHnlvYzud6DVjwWAvPefkY18OnIrbQlkpDMky9epzZsP1A2+Uzg8v0aSKmKJnTKRjWrlNLiaoZCr4IMGQqHbdrc3Y35Uou9m+lD0k3fIBGi3PcMKjRcIYZYdTCfPQT6aXZfzCYBXGFQxh8DEjCK5uMyr3pBO9WbG6JlcmTpyuySRINtDtt+Ht7tMye1eIKOwnl/hefO/Hq+ojnIABRSFPeXDIyjyX9TMPxqpRnu9bre5Fjfd1jvIFE12St1ZXgG76S4UwkUF96lxjVNsrDuhvgWsiDqCJNf6ifEtKcL+w5PpvEdwyZS8FdZtWN7g2QRuTIPjJJVXQvkjAh6p3RrvwL2nRVnFIN4BIc0maB70qGhyFAf07ayipQrIZ+UQgvuuIialyBgyarY1c+EgiK2kwzV41deoZFTTXqb1BNu2FlI+vCw=
 
 jobs:
-include:
-- stage: master build and deploy
-  if: ((branch = master AND type != pull_request) AND fork = false)
-  script:
-  - npm run lint || travis_terminate 1
-  - npm run generate || travis_terminate 1
+  include:
+  - stage: master build and deploy
+    if: ((branch = master AND type != pull_request) AND fork = false)
+    script:
+    - npm run lint || travis_terminate 1
+    - npm run generate || travis_terminate 1
 
-  after_success:
-  - netlify deploy --prod --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir ./dist/ || travis_terminate 1
-  - npm run semantic-release || travis_terminate 1
+    after_success:
+    - netlify deploy --prod --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --dir ./dist/ || travis_terminate 1
+    - npm run semantic-release || travis_terminate 1
 
-- stage: non-master build
-  if: ((branch != master OR type = pull_request) AND fork = false)
-  script:
-  - npm run lint || travis_terminate 1
-  - npm run generate || travis_terminate 1
+  - stage: non-master build
+    if: ((branch != master OR type = pull_request) AND fork = false)
+    script:
+    - npm run lint || travis_terminate 1
+    - npm run generate || travis_terminate 1
