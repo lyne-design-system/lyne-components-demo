@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.3...v1.0.4) (2021-11-01)
+
+
+### Bug Fixes
+
+* remove render:route ([8a05510](https://github.com/lyne-design-system/lyne-components-demo/commit/8a055109538efa3e85cf2a1ad1c9cbb4d61a1df2))
+
 ## [1.0.3](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.2...v1.0.3) (2021-11-01)
 
 
