@@ -33,6 +33,8 @@ export default {
     ],
     title: 'lyne-components-demo'
   },
+  loading: false,
+  loadingIndicator: false,
   modules: ['~/modules/stencil-render'],
   plugins: ['~/plugins/define-custom-elements'],
   target: 'static'
