@@ -1,3 +1,11 @@
+## [1.0.5](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.4...v1.0.5) (2021-11-07)
+
+
+### Bug Fixes
+
+* add render:route hook to hydrate on dev build ([4882780](https://github.com/lyne-design-system/lyne-components-demo/commit/4882780d77dbcede97c330425ed374a1d8c2737b))
+* disable nuxt loading indicator ([902eb08](https://github.com/lyne-design-system/lyne-components-demo/commit/902eb0867d0691a69752a7e157f36e241d445eda))
+
 ## [1.0.4](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.3...v1.0.4) (2021-11-01)
 
 
