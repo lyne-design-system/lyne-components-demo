@@ -28,7 +28,7 @@
     "netlify-cli": "~8.1.8",
     "nuxt": "^2.15.7",
     "semantic-release": "~18.0.1",
-    "semantic-release-slack-bot": "~3.4.1"
+    "semantic-release-slack-bot": "~3.5.0"
   },
   "dependencies": {
     "lyne-test": "~9.71.0"
