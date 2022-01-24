@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.5...v1.0.6) (2022-01-24)
+
+
+### Bug Fixes
+
+* resolving merge conflict and extending gitignore ([9b194bc](https://github.com/lyne-design-system/lyne-components-demo/commit/9b194bcbb9cc475c51c0d13a752d9e4f1f0260b7))
+
 ## [1.0.5](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.4...v1.0.5) (2021-11-07)
 
 
