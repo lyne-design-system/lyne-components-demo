@@ -14,23 +14,23 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "@commitlint/cli": "~16.0.2",
+    "@commitlint/cli": "~16.1.0",
     "@commitlint/config-conventional": "~16.0.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/exec": "~6.0.3",
     "@semantic-release/git": "^10.0.1",
     "core-js": "^3.20.3",
-    "eslint": "~8.6.0",
+    "eslint": "~8.7.0",
     "eslint-plugin-jsx-a11y": "~6.5.1",
     "eslint-plugin-yaml": "~0.5.0",
     "husky": "~7.0.4",
     "lyne-helper-eslint-config": "~1.0.5",
     "netlify-cli": "~8.1.8",
     "nuxt": "^2.15.7",
-    "semantic-release": "~18.0.1",
-    "semantic-release-slack-bot": "~3.4.1"
+    "semantic-release": "~19.0.2",
+    "semantic-release-slack-bot": "~3.5.0"
   },
   "dependencies": {
-    "lyne-test": "~9.71.0"
+    "lyne-test": "~9.72.4"
   }
 }
