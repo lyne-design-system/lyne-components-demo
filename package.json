@@ -31,6 +31,6 @@
     "semantic-release-slack-bot": "~3.4.1"
   },
   "dependencies": {
-    "lyne-test": "~9.71.0"
+    "lyne-test": "~9.72.4"
   }
 }
