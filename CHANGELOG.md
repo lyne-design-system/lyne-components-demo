@@ -1,3 +1,11 @@
+## [1.0.7](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.6...v1.0.7) (2022-03-14)
+
+
+### Bug Fixes
+
+* adding re-generated package-lock.json ([357bb01](https://github.com/lyne-design-system/lyne-components-demo/commit/357bb01698aed59c7ded891cf3108a8129d91ed5))
+* resolving merge conflict with main ([12582c6](https://github.com/lyne-design-system/lyne-components-demo/commit/12582c6745c23a0a5283c45d29fa1d9f7f9a1d43))
+
 ## [1.0.6](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.5...v1.0.6) (2022-01-24)
 
 
