@@ -24,7 +24,7 @@
     "eslint-plugin-jsx-a11y": "~6.5.1",
     "eslint-plugin-yaml": "~0.5.0",
     "husky": "~7.0.4",
-    "lyne-helper-eslint-config": "~1.0.5",
+    "lyne-helper-eslint-config": "~1.0.6",
     "netlify-cli": "~9.13.3",
     "nuxt": "^2.15.7",
     "semantic-release": "~19.0.2",
