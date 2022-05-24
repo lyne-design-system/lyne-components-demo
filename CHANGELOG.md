@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.7...v1.0.8) (2022-05-24)
+
+
+### Bug Fixes
+
+* update button usages to new api ([#123](https://github.com/lyne-design-system/lyne-components-demo/issues/123)) ([738eb86](https://github.com/lyne-design-system/lyne-components-demo/commit/738eb86dc1e166c84deb6f7cbb2990fa0b5dfbd2))
+
 ## [1.0.7](https://github.com/lyne-design-system/lyne-components-demo/compare/v1.0.6...v1.0.7) (2022-03-14)
 
 
