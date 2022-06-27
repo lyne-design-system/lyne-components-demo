@@ -1,12 +1,12 @@
 import Vue from 'vue';
 
-Vue.config.ignoredElements = [new RegExp('lyne-*', 'u')];
+Vue.config.ignoredElements = [new RegExp('sbb-*', 'u')];
 
 export default () => {
   if (process.client) {
     const {
       defineCustomElements
-    } = require('lyne-test/dist/esm/loader');
+    } = require('@sbb-esta/lyne-components/dist/esm/loader');
 
     defineCustomElements(window);
 

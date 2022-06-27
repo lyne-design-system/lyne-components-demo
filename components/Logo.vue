@@ -1,3 +1,3 @@
 <template>
-  <lyne-sbb-logo protective-room="ideal" variant="default"></lyne-sbb-logo>
+  <sbb-logo protective-room="ideal" variant="default"></sbb-logo>
 </template>
