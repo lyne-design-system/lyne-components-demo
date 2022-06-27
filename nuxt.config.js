@@ -1,6 +1,6 @@
 export default {
   components: true,
-  css: ['lyne-test/dist/lyne-components/lyne-components.css'],
+  css: ['@sbb-esta/lyne-components/dist/lyne-components/lyne-components.css'],
   head: {
     htmlAttrs: {
       lang: 'en',

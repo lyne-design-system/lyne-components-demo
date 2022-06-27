@@ -1,3 +1,3 @@
 <template>
-  <lyne-sbb-clock initial-time="now"></lyne-sbb-clock>
+  <sbb-clock initial-time="now"></sbb-clock>
 </template>

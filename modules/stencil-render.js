@@ -1,4 +1,4 @@
-const hydrate = require('lyne-test/hydrate');
+const hydrate = require('@sbb-esta/lyne-components/hydrate');
 
 export default function StencilRenderModule() {
 
